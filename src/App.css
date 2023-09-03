@@ -9,7 +9,7 @@
 
 #main-nav a{
     font-size: 1.4rem;
-    color: #000;
+    color: aliceblue
 }
 
 .dropdown-menu-p{
@@ -17,9 +17,5 @@
 }
 
 .main-div{
-    /* background-color: #; */
-}
-
-.login{
-    border-color: black;
+    background-color: rgba(20, 44, 100,0.96);
 }
