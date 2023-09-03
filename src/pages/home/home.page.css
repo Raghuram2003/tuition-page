@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+.home-header {
+  display: block;
+  height: 85vh;
+  background-image: url("./home-header-img.png");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  /* background-color: bisque; */
+}
+
+.home-header-textbox {
+  width: 20%;
+  position: absolute;
+  right: 5%;
+  backdrop-filter: blur(2px);
+  text-align: center;
+}
+
+.boards {
+  display: block;
+  font-size: 4rem;
+  color: #000;
+  text-shadow: 2px 2px #fff;
+}
+.info-on-tuition {
+  margin-top: 30px;
+  text-align: center;
+}
+.key-words {
+  color: greenyellow;
+}
+.info-p{
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .home-header-textbox {
+    right: 20%;
+  }
+}
